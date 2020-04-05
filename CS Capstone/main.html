@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shoe Test!</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
+
+  <body>
+    <div id = "Main">
+
+    <div id ="Heading">
+      <h1>Shoe Quiz</h1><br>
+      <h2 id="Title-2">This quiz will tell you what pair of shoes represents you!</h2><br>
+        </div>
+
+        <form id = "form">
+          <div id = "Scenario">
+
+            <div class="Scenario Heading">
+              <p class="Question">Which of these activites do you enjoy the most?</p?>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer1" class = "question" value="2" onclick="scrollWin1()">
+                <img src="question1/cooking.jpg" alt="Cooking">
+                <figcaption>Cooking</figcaption>
+            </label>
+
+              <label>
+                <input type="radio" name="answer1" class = "question" value="4" onclick="scrollWin1()">
+                <img src="question1/hiking.jpg" alt="Hiking">
+                <figcaption>Hiking</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer1" class = "question" value="6" onclick="scrollWin2()">
+                <img src="question1/invest.jpg" alt="Investing">
+                <figcaption>Investing</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer1" class = "question" value="3" onclick="scrollWin2()">
+                <img src="question1/netflix.jpg" alt="Netflix">
+                <figcaption>Netflix</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer1" class = "question" value="5" onclick="scrollWin3()">
+                <img src="question1/painting.jpg" alt="Painting">
+                <figcaption>Painting</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer1" class = "question" value="1" onclick="scrollWin3()">
+                <img src="question1/programming.jpg" alt="Programming">
+                <figcaption>Programming</figcaption>
+              </label>
+            </div>
+
+            <div class="Scenario Heading">
+              <p class="Question">Which of these are most important for your house?</p?>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer2" class = "question" value="5" onclick="scrollWin1()">
+                <img src="question2/art.jpg" alt="Art">
+                <figcaption>Artwork</figcaption>
+            </label>
+
+              <label>
+                <input type="radio" name="answer2" class = "question" value="4" onclick="scrollWin1()">
+                <img src="question2/backyard.jpg" alt="Backyard">
+                <figcaption>Backyard</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer2" class = "question" value="1" onclick="scrollWin2()">
+                <img src="question2/computerdesk.jpg" alt="ComputerDesk">
+                <figcaption>Computer Desk</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer2" class = "question" value="2" onclick="scrollWin2()">
+                <img src="question2/kitchen.jpg" alt="Kitchen ">
+                <figcaption>Kitchen</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer2" class = "question" value="3" onclick="scrollWin3()">
+                <img src="question2/sunkencouches.jpg" alt="Couches">
+                <figcaption>Sunken Couches</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer2" class = "question" value="6" onclick="scrollWin3()">
+                <img src="question2/moneysafe.jpg" alt="Money Safe">
+                <figcaption>Money Safe</figcaption>
+              </label>
+            </div>
+
+            <div class="Scenario Heading">
+              <p class="Question">What is your favorite subject?</p?>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer3" class = "question" value="1" onclick="scrollWin1()">
+                <img src="question4/mathclass.jpg" alt="Math">
+                <figcaption>Math</figcaption>
+            </label>
+
+              <label>
+                <input type="radio" name="answer3" class = "question" value="2" onclick="scrollWin1()">
+                <img src="question4/cookingclass.jpg" alt="Cooking">
+                <figcaption>Cooking Class</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer3" class = "question" value="3" onclick="scrollWin2()">
+                <img src="question4/educationclass.jpg" alt="Education">
+                <figcaption>Education</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer3" class = "question" value="4" onclick="scrollWin2()">
+                <img src="question4/enivsci.jpg" alt="Environmental Science">
+                <figcaption>Environmental Science</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer3" class = "question" value="5" onclick="scrollWin3()">
+                <img src="question4/artmajor.jpg" alt="Art">
+                <figcaption>Art</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer3" class = "question" value="6" onclick="scrollWin3()">
+                <img src="question4/business.jpg" alt="Business">
+                <figcaption>Business</figcaption>
+              </label>
+            </div>
+
+            <div class="Scenario Heading">
+              <p class="Question">Which of these is most entertaining to you?</p?>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer4" class = "question" value="2" onclick="scrollWin1()">
+                <img src="question5/cookingcompetition.jpg" alt="cookingcompetition">
+                <figcaption>Cooking Competitions</figcaption>
+            </label>
+
+              <label>
+                <input type="radio" name="answer4" class = "question" value="1" onclick="scrollWin1()">
+                <img src="question5/droneracing.jpg" alt="droneracing">
+                <figcaption>Drone Racing</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer4" class = "question" value="6" onclick="scrollWin2()">
+                <img src="question5/football.jpg" alt="Football">
+                <figcaption>Football</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer4" class = "question" value="3" onclick="scrollWin2()">
+                <img src="question5/golf.jpg" alt="Golf">
+                <figcaption>Gold</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer4" class = "question" value="4" onclick="scrollWin3()">
+                <img src="question5/hunting.jpg" alt="Hunting">
+                <figcaption>Hunting</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer4" class = "question" value="5" onclick="scrollWin3()">
+                <img src="question5/tennis.jpg" alt="Tennis">
+                <figcaption>Tennis</figcaption>
+              </label>
+            </div>
+
+            <div class="Scenario Heading">
+              <p class="Question">What telvesion channel do you enjoy watching the most?</p?>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer5" class = "question" value="4" onclick="scrollWin1()">
+                <img src="question6/animalplanet.png" alt="animalplanet">
+                <figcaption>Animal Planet</figcaption>
+            </label>
+
+              <label>
+                <input type="radio" name="answer5" class = "question" value="6" onclick="scrollWin1()">
+                <img src="question6/cnn.png" alt="cnn">
+                <figcaption>CNN</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer5" class = "question" value="1" onclick="scrollWin2()">
+                <img src="question6/discovery.png" alt="Discovery">
+                <figcaption>Discovery Channel</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer5" class = "question" value="3" onclick="scrollWin2()">
+                <img src="question6/disney.png" alt="disney">
+                <figcaption>Disney Channel</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer5" class = "question" value="2" onclick="scrollWin3()">
+                <img src="question6/foodnetwork.png" alt="Food">
+                <figcaption>Food Network</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer5" class = "question" value="5" onclick="scrollWin3()">
+                <img src="question6/tlc.png" alt="TLC">
+                <figcaption>TLC</figcaption>
+              </label>
+            </div>
+
+            <div class="Scenario Heading">
+              <p class="Question">Which of these animals do you think represents you?</p?>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer6" class = "question" value="4" onclick="scrollWin1()">
+                <img src="question7/bear.jpg" alt="Bear">
+                <figcaption>Bear</figcaption>
+            </label>
+
+              <label>
+                <input type="radio" name="answer6" class = "question" value="2" onclick="scrollWin1()">
+                <img src="question7/bird.jpg" alt="bird">
+                <figcaption>Bird</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer6" class = "question" value="1" onclick="scrollWin2()">
+                <img src="question7/dolphin.jpg" alt="Doplhin">
+                <figcaption>Dolphin</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer6" class = "question" value="3" onclick="scrollWin2()">
+                <img src="question7/panda.jpg" alt="Panda">
+                <figcaption>Panda</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer6" class = "question" value="5" onclick="scrollWin3()">
+                <img src="question7/snake.jpg" alt="Snake">
+                <figcaption>Snake</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer6" class = "question" value="6" onclick="scrollWin3()">
+                <img src="question7/tiger.jpg" alt="Tiger">
+                <figcaption>Tiger</figcaption>
+              </label>
+            </div>
+
+            <div class="Scenario Heading">
+              <p class="Question">What method of transportation do you wish you could use all the time?</p?>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer7" class = "question" value="4" onclick="scrollWin1()">
+                <img src="question8/boat.jpg" alt="boat">
+                <figcaption>Boat</figcaption>
+            </label>
+
+              <label>
+                <input type="radio" name="answer7" class = "question" value="6" onclick="scrollWin1()">
+                <img src="question8/chevy.jpg" alt="SUV">
+                <figcaption>SUV</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer7" class = "question" value="1" onclick="scrollWin2()">
+                <img src="question8/eskate.jpg" alt="Electric Skateboard">
+                <figcaption>Electric Skateboard</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer7" class = "question" value="2" onclick="scrollWin2()">
+                <img src="question8/minivan.jpg" alt="Minivan">
+                <figcaption>Minivan</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer7" class = "question" value="3" onclick="scrollWin3()">
+                <img src="question8/scooter.jpg" alt="Scooter">
+                <figcaption>Scooter</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer7" class = "question" value="5" onclick="scrollWin3()">
+                <img src="question8/vwbus.jpg" alt="vw bus">
+                <figcaption>VW Bus</figcaption>
+              </label>
+            </div>
+
+            <div class="Scenario Heading">
+              <p class="Question">Where would you rather be right now?</p?>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer8" class = "question" value="3" onclick="scrollWin1()">
+                <img src="question9/cabin.jpg" alt="cabin">
+                <figcaption>Cabin</figcaption>
+            </label>
+
+              <label>
+                <input type="radio" name="answer8" class = "question" value="4" onclick="scrollWin1()">
+                <img src="question9/camping.jpg" alt="camping">
+                <figcaption>Camping</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer8" class = "question" value="6" onclick="scrollWin2()">
+                <img src="question9/dubai.jpg" alt="Dubai">
+                <figcaption>Dubai</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer8" class = "question" value="2" onclick="scrollWin2()">
+                <img src="question9/france.jpg" alt="France">
+                <figcaption>France</figcaption>
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="radio" name="answer8" class = "question" value="5" onclick="scrollWin3()">
+                <img src="question9/milan.jpg" alt="Milan">
+                <figcaption>Milan</figcaption>
+              </label>
+
+              <label>
+                <input type="radio" name="answer8" class = "question" value="1" onclick="scrollWin3()">
+                <img src="question9/moon.jpg" alt="moon">
+                <figcaption>The Moon</figcaption>
+              </label>
+            </div>
+
+              <div id = submitbutton>
+                <button type="sumbit" id = "sumbitquiz" onclick="this.style.visibility = 'hidden'" value="submit">Submit!</button>
+              </div>
+
+              <div id = "quiz-results">
+                <p hidden id = "result"></p>
+                <p hidden id = "points"></p><br>
+                  <div id = "final-image">
+                  </div>
+                  <p id = "shoe-details"></p>
+                  <form id = "orderfrom"></form>
+                  <div id = "orderbutton"></div>
+              </div>
+
+    </div>
+    </form>
+
+  </div>
+
+    <script>
+
+
+      document.getElementById("form").onsubmit=function(){
+        //Array to hold the amount of times a trait related to one of the final shoes is choosen
+        var shoeCounts = [0,0,0,0,0,0];
+        //Array to hold the values of the questions that were selected
+        var values = [];
+
+        //I got this function from stackoverflow but it iterates through each question and pushes that values of the selected answers
+        //to the values array
+        $("input:radio[class=question]:checked").each(function(){
+          values.push($(this).val());
+        });
+        document.getElementById("points").innerHTML = values.toString();
+        //This function increments the index of an array given the corresponding value (from the selected answer)
+        for(var i = 0; i < values.length;i++){
+          if(values[i] == 1){
+            shoeCounts[0] += 1;
+          }
+          else if(values[i] == 2){
+            shoeCounts[1] += 1;
+          }
+          else if(values[i] == 3){
+            shoeCounts[2] += 1;
+          }
+          else if(values[i] == 4){
+            shoeCounts[3] += 1;
+          }
+          else if(values[i] == 5){
+            shoeCounts[4] += 1;
+          }
+          else{
+            shoeCounts[5] += 1;
+          }
+        }
+
+        document.getElementById("points").innerHTML = shoeCounts.toString();
+
+        //this function selects the index from the shoeCounts array that has the highest value
+        maxIndex = shoeCounts.indexOf(Math.max(...shoeCounts));
+        //this creates an image where the final shoe will be added to
+        elem = document.createElement("img");
+
+    //based on the max index, the following code inserts the image of the corresponding shoe as well as text describing the shoe.
+    if(maxIndex == 0){
+      document.getElementById("result").innerHTML = "Shoe 1";
+      elem.src = 'shoe1.jpg'
+      document.getElementById("final-image").appendChild(elem);
+      elem.setAttribute("height" , "300px" );
+      elem.setAttribute("width" , "300px");
+      document.getElementById("shoe-details").innerHTML = `Based on you answers, you are most related to the Nike Air Mag! Considered advanced for
+      its time, the Nike Air Mag is able to detect the size of your foot and electronically tightens. Your answers show that you have a knack for technology
+      and enjoy electronics!`;
+      document.cookie;
+      document.cookie = "shoeid = 1";
+
+}
+    else if(maxIndex == 1){
+      document.getElementById("result").innerHTML = "Shoe 2";
+      elem.src = 'shoe2.jpg'
+      document.getElementById("final-image").appendChild(elem);
+      elem.setAttribute("height" , "300px" );
+      elem.setAttribute("width" , "300px");
+      document.getElementById("shoe-details").innerHTML = `Based on your answers, you are most related to the breakfast slippers! These slippers
+      will show off your love for the best meal of the day! Your answers show your interests for cooking and baking as well as being a well rounded
+      host for any of your guests!`;
+      document.cookie;
+      document.cookie = "shoeid = 2";
+
+}
+
+    else if(maxIndex == 2){
+      document.getElementById("result").innerHTML = "Shoe 3";
+      elem.src = 'shoe3.jpg'
+      document.getElementById("final-image").appendChild(elem);
+      elem.setAttribute("height" , "300px" );
+      elem.setAttribute("width" , "300px");
+      document.getElementById("shoe-details").innerHTML =`Based on your answers, you are most related to the Teddy Bear Adidas Sneakers!
+      These sneakers will keep your feet nice and warm with its soft inside liner and show off your inner child with its large teddy bear head on top!`;
+      document.cookie = "shoeid = 3";
+}
+
+    else if(maxIndex == 3){
+      document.getElementById("result").innerHTML = "Shoe 4";
+      elem.src = 'shoe4.jpg'
+      document.getElementById("final-image").appendChild(elem);
+      elem.setAttribute("height" , "300px" );
+      elem.setAttribute("width" , "300px");
+      document.getElementById("shoe-details").innerHTML = `Based on your answers, you are most related to the Fish Slippers! Perfect for any
+      outdoorsman, the Fish Slippers display your love for adventure and outdoor activies!`;
+      document.cookie = "shoeid = 4";
+}
+
+    else if(maxIndex == 4){
+      document.getElementById("result").innerHTML = "Shoe 5";
+      elem.src = 'shoe5.jpg'
+      document.getElementById("final-image").appendChild(elem);
+      elem.setAttribute("height" , "300px" );
+      elem.setAttribute("width" , "300px");
+      document.getElementById("shoe-details").innerHTML = `Based on your answers, you are most related to the Beaded Wedges! Perfect for any
+      vibrant dresses, these wedges display your love for the arts of all kinds!`;
+      document.cookie = "shoeid = 5";
+}
+    else {
+      document.getElementById("result").innerHTML = "Shoe 6";
+      elem.src = 'shoe6.jpg'
+      document.getElementById("final-image").appendChild(elem);
+      elem.setAttribute("height" , "300px" );
+      elem.setAttribute("width" , "300px");
+      document.getElementById("shoe-details").innerHTML = `Based on your answers, you are most related to the Adidas MoneyWing Sneakers!
+      These are no ordniary Adidas shoes, as they are covered with dollar bills and have wings on either side! `;
+      document.cookie = "shoeid = 6";
+}
+      scrollWin3()
+      but = document.createElement("BUTTON");
+      but.type = "button";
+      but.innerHTML = "Order Now!";
+      document.getElementById("orderbutton").appendChild(but);
+      document.getElementById("orderbutton").setAttribute("onclick", "javascript: goToOrderForm(maxIndex);" );
+      return false;
+  }
+  //I wanted to create functions where each time an answer was choosen, the window would scroll down to the next question but
+  //i struggled with it and ended up just moving the window an estimated distance to the next question
+  function scrollWin1() {
+  window.scrollBy(0, 1100);
+}
+  function scrollWin2() {
+    window.scrollBy(0, 800);
+}
+  function scrollWin3() {
+    window.scrollBy(0, 550);
+}
+function goToOrderForm(maxIndex){
+  var val = maxIndex;
+  if(val == 0){
+  location.href = "www.shoestest.com/orderform.html?0";
+}
+else if (val == 1){
+location.href = "www.shoestest.com/orderform.html?1";
+}
+else if (val == 2){
+location.href = "www.shoestest.com/orderform.html?2";
+}
+else if (val == 3){
+location.href = "www.shoestest.com/orderform.html?3";
+}
+else if (val == 4){
+location.href = "www.shoestest.com/orderform.html?4";
+}
+else {
+location.href = "www.shoestest.com/orderform.html?5";
+}
+}
+
+
+    </script>
+    <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Helvetica;
+      background: url(shoes2.png);
+
+    }
+
+    #Main {
+      width: 60%;
+      border: 1px black solid;
+      margin: auto;
+      margin-top: 50px;
+      padding: 15px;
+      background-color: white;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    #Heading {
+      margin-top: 0;
+      text-align: center;
+      padding: 15px;
+      height: 200px;
+      font-family: sans-serif;
+    }
+
+    #Scenario{
+      margin-bottom: 40px;
+    }
+    label{
+    padding-top: 100px;
+    display: inline-block;
+    }
+
+
+    form{
+      align-items: center;
+    }
+
+    img{
+      width: 300px;
+      height: 200px;
+      border-radius: 1px;
+      border-color: black;
+      padding: 20px;
+    }
+
+
+      .button:active{
+        background: red;
+      }
+
+    input[class = question]{
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+
+    }
+    [type=radio] + img {
+      cursor: pointer;
+    }
+
+    [type=radio]:checked + img {
+      outline: 2px solid #f00;
+    }
+
+    </style>
+  </body>
+</html>
